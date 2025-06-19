@@ -12,7 +12,7 @@ game.ReplicatedStorage.BugReport.OnServerEvent:Connect(function(player, report)
 		["desc"] = report,
 		["key"] = "",
 		["token"] = "",
-		["pos"] = "bottom",
+		["pos"] = "",
 		["idList"] = "",
 	}
 	local jsonData = http:JSONEncode(data)
