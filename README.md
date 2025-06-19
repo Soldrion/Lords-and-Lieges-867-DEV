@@ -1,5 +1,6 @@
 # Lords-and-Lieges-867-DEV
 
+This will have most of the work put into it, as it's the actual GAME game part.
 
 For the 867 AD gamemode (dev).
 
