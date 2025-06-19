@@ -10,9 +10,9 @@ game.ReplicatedStorage.BugReport.OnServerEvent:Connect(function(player, report)
 	local data = {
 		["name"] = player.Name .. " - " .. os.date().. " Gamemode:".. " ".. GameName, -- Concatenate name and date
 		["desc"] = report,
-		["key"] = "",
-		["token"] = "",
-		["pos"] = "",
+		["key"] = "55daa7abe447fb07041ac7177b42c0e6",
+		["token"] = "6c7f7b035fd323815925b77fee52bac0a50a7618146375d8d0bdd4a779708b3e",
+		["pos"] = "bottom",
 		["idList"] = "",
 	}
 	local jsonData = http:JSONEncode(data)
