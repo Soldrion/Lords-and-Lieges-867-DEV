@@ -4,7 +4,9 @@ This will have most of the work put into it, as it's the actual GAME game part.
 
 For the 867 AD gamemode (dev).
 
-Q/A:
+⚠️Files from the game may be missing, as they are not recognized by Rojo or rbxlx-to-rojo!
+
+## Q/A:
 
 Q: Why not make this a separate branch on the Lords & Lieges repo? 
 A: Because I'm too dumb to sandbox the two on Roblox Studio and VS Code, so when i edit, edits apply to both the main version and this.
@@ -20,3 +22,4 @@ Anyone can use my scripts, and if someone wants to make a spinoff game they can.
 
 ## To see the main menu:
 https://github.com/Soldrion/Lords-and-Lieges/tree/main 
+
