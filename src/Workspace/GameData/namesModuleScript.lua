@@ -31,7 +31,7 @@ local db = {
 		b_west_slavic = {
 			c_polish = {
 				names = {
-					m = {};
+					m = {"Wociech","Jakub","Kacper","Szymon","Jan","Filip","Antoni","Michał","Franciszek","Aleksander","Piotr","Paweł","Krzysztof","Andrzej","Tomasz","Mariusz","Marek","Adam","Jacek","Ryszard","Grzegorz","Łukasz","Dariusz","Jarosław","Przemysław","Zbigniew","Roman","Maciej","Marcin","Stanisław","Mateusz","Kazimierz","Jerzy","Rafał","Tadeusz","Sebastian","Daniel","Bartosz","Kamil","Karol","Mirosław","Krystian","Wiesław","Artur","Damian","Witold","Konrad","Leszek","Anton","Arkadiusz","Augustyn","Benedykt","Bożydar","Bronisław","Cezary","Donat","Fryderyk","Gerard","Gaweł","Ignacy","Jacenty"};
 					f = {};
 				};
 			};
