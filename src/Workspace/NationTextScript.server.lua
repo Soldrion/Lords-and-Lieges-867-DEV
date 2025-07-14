@@ -104,16 +104,14 @@ local function destroyWall(nationName)
 	end
 end
 
-
-
 function globalUpdateWalls()
 	warn("GLOBALLY UPDATING ALL WALLS")
 	for i, nation in pairs(NationsFolder:GetChildren()) do
-		wait(.000001)
+		wait(0.000001)
 		print(nation.Name)
 		destroyWall(nation)
 		createWall(nation)
-		end
+	end
 end
 
 workspace.UpdateWallEvent.Event:Connect(function()
