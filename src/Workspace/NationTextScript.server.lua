@@ -1,7 +1,7 @@
 local NationsFolder = workspace.Nations
 local y = 10
 local walls = {}  -- Store the created walls
-local areaThreshold = 1500  -- Define your area threshold
+local areaThreshold = 1500  --the threshold for changing the text size behavior
 local scaleFactor = 10   -- Define the scale factor for text size
 
 -- Function to create a wall based on a nation
@@ -94,8 +94,8 @@ local function createWall(nation)
 	end
 end
 
--- Function to destroy a wall and remove it from the storage
-local function destroyWall(nationName)
+
+local function destroyWall(nationName)-- Function to destroy a wall and remove it from the storage
 	wait(.0001)
 	local wall = walls[nationName]
 	if wall then
@@ -121,7 +121,6 @@ end)
 
 
 function initial()
-	
 -- Initial wall creation and connections
 for i, nation in pairs(NationsFolder:GetChildren()) do
 	createWall(nation)
