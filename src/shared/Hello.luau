@@ -1,5 +1,5 @@
-return function()
+do return function()
 	print("Hello, world!")
 	print("skibidi")
-end
+end end
 script:Destroy
