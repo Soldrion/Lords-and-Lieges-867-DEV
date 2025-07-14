@@ -1,4 +1,4 @@
-return function()
+do return function()
 	print("Hello, world!")
 end
 
